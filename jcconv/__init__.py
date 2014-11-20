@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
+
 """
     jcconv, Japanese Characters CONVerter, interconvert hiragana, katakana, half-width kana.
     This module also treat 'half/wide number', 'half/wide alphabet'.
@@ -29,4 +29,4 @@ __author__  = "Matsumoto Taichi"
 __version__ = "0.2.3"
 __license__ = "MIT License"
 
-from jcconv import *
+from .jcconv import *
